@@ -52,10 +52,7 @@ class _JsonParseState extends State<JsonParse> {
                        child:Column(
                           children:<Widget>[
                             Image(image: AssetImage('assets/icons/profpic.png')),
-                            Padding(
-                              padding: const EdgeInsets.only(top:3.0),
-                              child: Text(tokoh.name,textAlign: TextAlign.center,),
-                            ),
+                            Text(tokoh.name,textAlign: TextAlign.center,),
                           ]
                         
                       )
