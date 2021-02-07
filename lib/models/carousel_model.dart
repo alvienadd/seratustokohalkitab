@@ -1,6 +1,5 @@
 class CarouselModel {
   String image;
-
   CarouselModel(this.image);
 }
 
