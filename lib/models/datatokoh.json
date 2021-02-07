@@ -8,9 +8,23 @@
   },
   {
     "id"  : 2,
-    "name": "Hawa2",
+    "name": "Hawa",
     "type": "Wanita",
     "category":"PL",
     "description":"Hawa adalah istri Adam, manusia pertama yang Tuhan ciptakan di bumi. Hawa-lah yang pertama digoda oleh iblis yang datang dalam bentuk ular sehingga ia dan suaminya jatuh ke dalam dosa. Hawa tergoda dengan perkataan iblis, ia melihat buah pohon itu sangat menarik, sedap dilihat. Lalu ia mengambil buah pohon itu, memakannya dan memberikannya kepada suaminya, Adam. Akibatnya mereka jatuh ke dalam dosa dan dihukum Tuhan. Bahkan hukuman yang ditimpakan Tuhan kepada Adam dan Hawa bukan hanya untuk mereka berdua, tetapi berdampak kepada seluruh keturunan mereka kelak, yakni semua manusia di bumi. Inilah yang disebut dengan istilah dosa asali atau dosa warisan, yang hanya ada dalam ajaran kekristenan (Roma 5:12-21)."
+  },
+  {
+    "id"  : 3,
+    "name": "Kain",
+    "type": "Pria",
+    "category":"PL",
+    "description":"Kain adalah anak pertama Adam dan Hawa, manusia pertama di bumi. Kain adalah seorang petani dan Habel, adik Kain, seorang peternak kambing-domba. Suatu waktu Kain dan Habel mempersembahkan korban kepada Tuhan. Kain mempersembahkan hasil pertaniannya, sedangkan Habel mempersembahkan hasil peternakannya. Ternyata persembahan Kain tidak diterima oleh Tuhan, sedangkan persembahan Habel, adiknya, diterimaNya. Alasan mengapa persembahan Kain ditolak oleh Tuhan adalah karena perbuatan Kain yang jahat. Jadi bukan karena “bahan” persembahannya yang berbeda dengan “bahan” persembahan Habel (seperti yang sering dianggap oleh sebagian orang), melainkan lebih pada sikap hati Kain yang tidak berkenan kepada Tuhan (1 Yohanes 3:12). Karena persembahannya ditolak oleh Tuhan, maka Kain menjadi iri hati kepada Habel. Dengan liciknya Kain mengajak Habel ke ladang, lalu dengan tiba-tiba ia memukul dan membunuh adiknya tersebut. Karena itu maka Tuhan sangat murka kepadanya. Ia mengutuk Kain dan menghukumnya dengan tanah yang tidak menghasilkan penuh baginya. Selain itu, Kain juga akan menjadi seorang pengembara di bumi (Kejadian 4)."
+  },
+  {
+    "id"  : 4,
+    "name": "Habel",
+    "type": "Pria",
+    "category":"PL",
+    "description":"Habel adalah anak kedua dari Adam dan Hawa. Karena persembahannya ditolak oleh Tuhan, maka Kain menjadi iri hati kepada Habel. Dengan liciknya Kain mengajak Habel ke ladang, lalu dengan tiba-tiba ia memukul dan membunuh adiknya tersebut. Bukannya memperbaiki hidupnya sehingga ia berkenan kepada Tuhan, Kain malah membunuh adiknya yang tidak bersalah. Padahal Tuhan sudah mengingatkan Kain bahwa dosa sudah mengintainya di kala ia tidak berbuat baik. Tetapi Kain mengabaikan peringatan Tuhan, sehingga terjadilah dosa pembunuhan tersebut. Tuhan sangat marah kepada Kain atas pembunuhan Habel. Ia mengutuk Kain dan menghukumnya dengan tanah yang tidak menghasilkan penuh baginya, ia juga menjadi pengembara di bumi. Peristiwa pembunuhan Habel merupakan pembunuhan pertama yang tercatat di Alkitab. Hal ini membuat Habel sebagai martir pertama di Alkitab. Habel boleh disebut sebagai martir dikarenakan ia meninggal demi mempertahankan penyembahan yang benar kepada Tuhan. Tuhan Yesus juga dengan jelas menyebut Habel sebagai “orang benar” dan bahwa kemartirannya merupakan awal pembunuhan terhadap orang-orang benar (Matius 23:35)."
   }
 ]
