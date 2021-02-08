@@ -1,6 +1,7 @@
 import 'package:seratustokohalkitab/Screens/Splashscreen/splashscreen.dart';
 import 'package:seratustokohalkitab/Screens/Dashboard/dashboard.dart';
 import 'package:flutter/material.dart';
+import 'package:seratustokohalkitab/Screens/components/DetailPria.dart';
 import 'package:seratustokohalkitab/Screens/components/Pria.dart';
 import 'package:seratustokohalkitab/Screens/components/Wanita.dart';
 
@@ -21,13 +22,14 @@ class RouteGenerator {
          return MaterialPageRoute(builder: (_)=>Wanita());
 
         //Validation of Correct data type
-        // if(args is String){
-        //   return MaterialPageRoute(
-        //     builder:(_)=>Dashboard(
-        //       // data:args,
-        //     ),
-        //   );
-        // }
+          // if(args is String){
+          //   return MaterialPageRoute(
+          //     builder:(_)=>DetailPria(
+          //        data:args,
+          //     ),
+          //   );
+          // }
+          
         //If args is not of the correct type, return an error page
         //You can also throw an exception while in development
         return _errorRoute();
