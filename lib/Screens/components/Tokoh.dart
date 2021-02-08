@@ -28,8 +28,13 @@ class _TokohState extends State<Tokoh> {
           children: <Widget>[
             //Say Hello to User
             Padding(
-              padding: const EdgeInsets.only(top:10.0,left:20.0,right:20.0,bottom:10.0),
+              padding: const EdgeInsets.only(top:10.0,left:20.0,right:20.0,bottom:2.0),
               child: Text('Hello, People.. This Apps For You♡ ♥💕❤',style: TextStyle(fontStyle: FontStyle.italic,color:Color(int.parse(
+                                  '#BB163A'.replaceAll('#', '0xff'))),fontWeight: FontWeight.bold),),
+            ),
+              Padding(
+              padding: const EdgeInsets.only(left:20.0,right:20.0,bottom:10.0),
+              child: Text('Plz connect to Internet',style: TextStyle(fontStyle: FontStyle.italic,color:Color(int.parse(
                                   '#BB163A'.replaceAll('#', '0xff'))),fontWeight: FontWeight.bold),),
             ),
             Container(
