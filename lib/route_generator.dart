@@ -1,6 +1,8 @@
 import 'package:seratustokohalkitab/Screens/Splashscreen/splashscreen.dart';
 import 'package:seratustokohalkitab/Screens/Dashboard/dashboard.dart';
 import 'package:flutter/material.dart';
+import 'package:seratustokohalkitab/Screens/components/Pria.dart';
+import 'package:seratustokohalkitab/Screens/components/Wanita.dart';
 
 
 class RouteGenerator {
@@ -13,6 +15,10 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_)=>Splashscreen());
       case '/dashboard':
          return MaterialPageRoute(builder: (_)=>Dashboard());
+      case '/pria':
+         return MaterialPageRoute(builder: (_)=>Pria());
+      case '/wanita':
+         return MaterialPageRoute(builder: (_)=>Wanita());
 
         //Validation of Correct data type
         // if(args is String){

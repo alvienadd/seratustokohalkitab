@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:seratustokohalkitab/JsonParse.dart';
+import 'package:seratustokohalkitab/Screens/components/Pria.dart';
 import 'package:seratustokohalkitab/Screens/components/Tokoh.dart';
+import 'package:seratustokohalkitab/Screens/components/Wanita.dart';
 
 class Dashboard extends StatefulWidget {
   @override
@@ -51,12 +53,13 @@ class _DashboardState extends State<Dashboard>  with SingleTickerProviderStateMi
            Container(padding:const EdgeInsets.all(3.0)),
         ],
         elevation:0,
-        title:
-        Transform(
-          // you can forcefully translate values left side using Transform
-          transform:  Matrix4.translationValues(0.0, 0.0, 0.0),
-          child: Image.asset('assets/icons/logo2.png',height:100,width:100)
-        ),
+        // title:
+        // Transform(
+        //   // you can forcefully translate values left side using Transform
+        //   transform:  Matrix4.translationValues(0.0, 0.0, 0.0),
+        //   child: Image.asset('assets/icons/logo2.png',height:100,width:100)
+        // ),
+         title:_currentTabIndex ==0?Transform(transform:  Matrix4.translationValues(0.0, 0.0, 0.0),child: Image.asset('assets/icons/logo2.png',height:100,width:100)):Text(_getTitleForCurrentTab(_Tab.values[_currentTabIndex])), // set the title in the AppBar
       ),
       backgroundColor: Color(int.parse('#F2F2F2'.replaceAll('#', '0xff'))),
       body:_getBody(_currentTabIndex),
@@ -118,9 +121,9 @@ Widget _getBody(int index){
       case 0:
         return Tokoh(); // Create this function, it should return your first page as a widget
       case 1:
-        return Center(child: Text("Index 2"),); // Create this function, it should return your second page as a widget
+        return Center(child: Text("There is no page builder for this index"),); // Create this function, it should return your second page as a widget
       case 2:
-        return Center(child: Text("Index 3"),);// Create this function, it should return your third page as a widget
+        return Center(child: Text("There is no page builder for this index"),);// Create this function, it should return your third page as a widget
       case 3:
          return JsonParse(); // Create this function, it should return your fourth page as a widget
     }

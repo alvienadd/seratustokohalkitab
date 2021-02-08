@@ -106,60 +106,70 @@ class _TokohState extends State<Tokoh> {
                   Row(
                     children:<Widget>[
                       Expanded(
-                          child: Container(
-                          margin:EdgeInsets.only(right:8),
-                          padding: EdgeInsets.only(left:16),
-                          height:64,
-                          decoration: BoxDecoration(
-                            color:Colors.white,
-                            borderRadius: BorderRadius.circular(12),
-                            border: Border.all(
-                              color:Colors.black,width:0.2
-                            )
-                          ),
-                          child:Row(
-                            children:<Widget>[
-                              Image(image: AssetImage('assets/icons/profpic.png')),
-                              Padding(padding: EdgeInsets.only(left:16),
-                                child:Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children:<Widget>[
-                                    Text('Pria'),
-                                  ]
-                                )
+                          child: GestureDetector(
+                                                      child: Container(
+                            margin:EdgeInsets.only(right:8),
+                            padding: EdgeInsets.only(left:16),
+                            height:64,
+                            decoration: BoxDecoration(
+                              color:Colors.white,
+                              borderRadius: BorderRadius.circular(12),
+                              border: Border.all(
+                                color:Colors.black,width:0.2
                               )
-                            ]
-                          )
+                            ),
+                            child:Row(
+                              children:<Widget>[
+                                Image(image: AssetImage('assets/icons/profpic.png')),
+                                Padding(padding: EdgeInsets.only(left:16),
+                                  child:Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children:<Widget>[
+                                      Text('Pria'),
+                                    ]
+                                  )
+                                )
+                              ]
+                            )
                         ),
+                        onTap:(){
+                              Navigator.of(context).pushNamed('/pria',arguments:'Page Pria');
+                            }
+                          ),
                       ),
                       Expanded(
-                          child: Container(
-                          margin:EdgeInsets.only(right:8),
-                          padding: EdgeInsets.only(left:16),
-                          height:64,
-                          decoration: BoxDecoration(
-                            color:Colors.white,
-                            borderRadius: BorderRadius.circular(12),
-                            border: Border.all(
-                              color:Colors.black,width:0.2
-                            )
-                          ),
-                          child:Row(
-                            children:<Widget>[
-                              Image(image: AssetImage('assets/icons/profpic.png')),
-                              Padding(padding: EdgeInsets.only(left:16),
-                                child:Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children:<Widget>[
-                                    Text('Wanita'),
-                                  ]
-                                )
+                          child: GestureDetector(
+                                                      child: Container(
+                            margin:EdgeInsets.only(right:8),
+                            padding: EdgeInsets.only(left:16),
+                            height:64,
+                            decoration: BoxDecoration(
+                              color:Colors.white,
+                              borderRadius: BorderRadius.circular(12),
+                              border: Border.all(
+                                color:Colors.black,width:0.2
                               )
-                            ]
-                          )
+                            ),
+                            child:Row(
+                              children:<Widget>[
+                                Image(image: AssetImage('assets/icons/profpic.png')),
+                                Padding(padding: EdgeInsets.only(left:16),
+                                  child:Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children:<Widget>[
+                                      Text('Wanita'),
+                                    ]
+                                  )
+                                )
+                              ]
+                            )
                         ),
+                        onTap:(){
+                              Navigator.of(context).pushNamed('/wanita',arguments:'Page Wanita');
+                            }
+                          ),
                       )
                     ]
                   )

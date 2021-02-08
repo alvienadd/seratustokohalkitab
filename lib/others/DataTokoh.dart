@@ -2,6 +2,10 @@
 //
 //     final DataTokoh = DataTokohFromJson(jsonString);
 
+
+// Tutorial Youtube : https://www.youtube.com/watch?v=wc8ecFSu5N8 - Easily Parsed JSON
+
+
 import 'dart:convert';
 
 List<DataTokoh> DataTokohFromJson(String str) => List<DataTokoh>.from(json.decode(str).map((x) => DataTokoh.fromJson(x)));
