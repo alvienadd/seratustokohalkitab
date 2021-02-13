@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:seratustokohalkitab/others/DataTokoh.dart';
 
-class DetailPria extends StatefulWidget {
+class DetailWanita extends StatefulWidget {
   final DataTokoh args;
 
-  const DetailPria({
+  const DetailWanita({
     Key key,
     this.args,
   }) : super(key: key);
 
   @override
-  _DetailPriaState createState() => _DetailPriaState();
+  _DetailWanitaState createState() => _DetailWanitaState();
 }
 
-class _DetailPriaState extends State<DetailPria> {
+class _DetailWanitaState extends State<DetailWanita> {
   @override
   Widget build(BuildContext context) {
 

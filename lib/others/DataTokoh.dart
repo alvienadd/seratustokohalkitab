@@ -2,10 +2,6 @@
 //
 //     final DataTokoh = DataTokohFromJson(jsonString);
 
-
-// Tutorial Youtube : https://www.youtube.com/watch?v=wc8ecFSu5N8 - Easily Parsed JSON
-
-
 import 'dart:convert';
 
 List<DataTokoh> DataTokohFromJson(String str) => List<DataTokoh>.from(json.decode(str).map((x) => DataTokoh.fromJson(x)));
@@ -18,6 +14,7 @@ class DataTokoh {
         this.name,
         this.type,
         this.category,
+        this.personality,
         this.description,
     });
 
@@ -25,6 +22,7 @@ class DataTokoh {
     String name;
     String type;
     String category;
+    String personality;
     String description;
 
     factory DataTokoh.fromJson(Map<String, dynamic> json) => DataTokoh(
@@ -32,6 +30,7 @@ class DataTokoh {
         name: json["name"],
         type: json["type"],
         category: json["category"],
+        personality: json["personality"],
         description: json["description"],
     );
 
@@ -40,6 +39,7 @@ class DataTokoh {
         "name": name,
         "type": type,
         "category": category,
+        "personality": personality,
         "description": description,
     };
 }

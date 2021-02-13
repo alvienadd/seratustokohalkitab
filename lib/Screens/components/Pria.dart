@@ -91,7 +91,7 @@ class _PriaState extends State<Pria> {
                                 child: Column(children: <Widget>[
                                   Image(
                                       image: AssetImage(
-                                          'assets/icons/profpic.png')),
+                                          'assets/icons/malecharacters.png')),
                                   Text(
                                     tokoh.name,
                                     textAlign: TextAlign.center,
