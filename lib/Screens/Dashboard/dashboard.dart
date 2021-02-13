@@ -3,6 +3,7 @@ import 'package:seratustokohalkitab/JsonParse.dart';
 import 'package:seratustokohalkitab/Screens/components/Pria.dart';
 import 'package:seratustokohalkitab/Screens/components/Tokoh.dart';
 import 'package:seratustokohalkitab/Screens/components/Wanita.dart';
+import 'package:seratustokohalkitab/Wallpaper.dart';
 
 class Dashboard extends StatefulWidget {
   @override
@@ -125,7 +126,7 @@ Widget _getBody(int index){
       case 2:
         return Center(child: Text("There is no page builder for this index"),);// Create this function, it should return your third page as a widget
       case 3:
-         return JsonParse(); // Create this function, it should return your fourth page as a widget
+         return Wallpaper(); // Create this function, it should return your fourth page as a widget
     }
     return Center(child: Text("There is no page builder for this index"),);
 }

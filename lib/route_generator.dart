@@ -6,6 +6,7 @@ import 'package:seratustokohalkitab/Screens/components/Pria.dart';
 import 'package:seratustokohalkitab/Screens/components/Wanita.dart';
 import 'package:seratustokohalkitab/Screens/components/Baik.dart';
 import 'package:seratustokohalkitab/Screens/components/Buruk.dart';
+import 'package:seratustokohalkitab/Wallpaper.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -25,6 +26,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => Baik());
       case '/buruk':
         return MaterialPageRoute(builder: (_) => Buruk());
+      case '/wallpaper':
+        return MaterialPageRoute(builder: (_) => Wallpaper());
         //Validation of Correct data type
         // if(args is String){
         //   return MaterialPageRoute(

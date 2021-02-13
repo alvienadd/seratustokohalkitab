@@ -37,6 +37,7 @@ class _BurukState extends State<Buruk> {
   Widget build(BuildContext context) {
     final orientation = MediaQuery.of(context).orientation;
     return Scaffold(
+        backgroundColor: const Color(0xFF212121),
         appBar: AppBar(
           flexibleSpace: Container(
             width: MediaQuery.of(context).size.width,
@@ -114,21 +115,24 @@ class _BurukState extends State<Buruk> {
   Widget _searchBar() {
     return Container(
       padding: EdgeInsets.only(bottom: 16.0),
-      child: TextField(
-        decoration: InputDecoration(
-          hintText: "Cari Tokoh Alkitab .......",
-          prefixIcon: Icon(Icons.search),
+      child: Container(
+        color:Colors.white,
+        child: TextField(
+          decoration: InputDecoration(
+            hintText: "Cari Tokoh Alkitab .......",
+            prefixIcon: Icon(Icons.search),
+          ),
+          onChanged: (string) {
+            // _filterTokohList(text);
+            setState(() {
+              tempList = searchList
+                  .where(
+                      (t) => t.name.toLowerCase().contains(string.toLowerCase()))
+                  .toList();
+            });
+            //  print('counter value : $tempList');
+          },
         ),
-        onChanged: (string) {
-          // _filterTokohList(text);
-          setState(() {
-            tempList = searchList
-                .where(
-                    (t) => t.name.toLowerCase().contains(string.toLowerCase()))
-                .toList();
-          });
-          //  print('counter value : $tempList');
-        },
       ),
     );
   }
