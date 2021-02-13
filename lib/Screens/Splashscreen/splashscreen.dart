@@ -51,7 +51,7 @@ class _SplashscreenState extends State<Splashscreen> {
                               Padding(
                     padding:EdgeInsets.only(top:6.0)
                   ),
-                         Text('Belajar Alkitab Melalui Online',style:TextStyle(color:Colors.black,fontSize:18.0,fontWeight:FontWeight.bold)),
+                         Text('Belajar Alkitab Melalui Apps',style:TextStyle(color:Colors.black,fontSize:18.0,fontWeight:FontWeight.bold)),
                     ]
                 )
               )
