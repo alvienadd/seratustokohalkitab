@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:seratustokohalkitab/Screens/components/DetailWanita.dart';
+import 'package:seratustokohalkitab/Screens/components/DetailBaik.dart';
+
 import 'package:seratustokohalkitab/others/DataTokoh.dart';
 import 'package:seratustokohalkitab/others/Services.dart';
 
-class Wanita extends StatefulWidget {
-  Wanita() : super();
+class Baik extends StatefulWidget {
+  Baik() : super();
 
   @override
-  _WanitaState createState() => _WanitaState();
+  _BaikState createState() => _BaikState();
 }
 
-class _WanitaState extends State<Wanita> {
+class _BaikState extends State<Baik> {
   List<DataTokoh> _tokoh = List();
   List<DataTokoh> tempList = List();
   List<DataTokoh> searchList = List();
@@ -25,7 +26,7 @@ class _WanitaState extends State<Wanita> {
     Services.getDataTokoh().then((value) {
       setState(() {
         _tokoh = value;
-        tempList = _tokoh.where((value) => value.type == 'Wanita').toList();
+        tempList = _tokoh.where((value) => value.personality == 'baik').toList();
         searchList = tempList;
         _loading = false;
       });
@@ -44,7 +45,7 @@ class _WanitaState extends State<Wanita> {
                     fit: BoxFit.fill,
                     image: AssetImage('assets/icons/bgheader.PNG'))),
           ),
-          title: Text('Tokoh Wanita'),
+          title: Text('Tokoh Baik'),
           automaticallyImplyLeading: true,
           actions: <Widget>[
             ImageIcon(
@@ -76,37 +77,36 @@ class _WanitaState extends State<Wanita> {
                   itemBuilder: (context, index) {
                     DataTokoh tokoh = tempList[index];
                     return GestureDetector(
-                      child: Card(
-                          margin: EdgeInsets.all(20.0),
-                          child: GridTile(
-                              // title:Text(tokoh.name),
-                              // subtitle:Text(tokoh.category)
-                              footer: Padding(
-                                padding: const EdgeInsets.all(2.0),
-                                child: Text(
-                                  tokoh.category,
-                                  textAlign: TextAlign.center,
+                        child: Card(
+                            margin: EdgeInsets.all(20.0),
+                            child: GridTile(
+                                // title:Text(tokoh.name),
+                                // subtitle:Text(tokoh.category)
+                                footer: Padding(
+                                  padding: const EdgeInsets.all(2.0),
+                                  child: Text(
+                                    tokoh.category,
+                                    textAlign: TextAlign.center,
+                                  ),
                                 ),
-                              ),
-                              child: Column(children: <Widget>[
-                                Image(
-                                  height: 100,
-                                    image:
-                                        AssetImage('assets/icons/female.png')),
-                                Text(
-                                  tokoh.name,
-                                  textAlign: TextAlign.center,
-                                ),
-                              ]))),
-                                 onTap: () {
+                                child: Column(children: <Widget>[
+                                  Image(
+                                      height: 100,
+                                      image: AssetImage(
+                                          'assets/icons/good.png')),
+                                  Text(
+                                    tokoh.name,
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ]))),
+                        onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) =>DetailWanita(args: tempList[index]),
+                              builder: (context) =>DetailBaik(args: tempList[index]),
                             ),
                           );
-                        }
-                    );
+                        });
                   }))
         ])));
   }

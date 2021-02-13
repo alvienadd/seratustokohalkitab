@@ -223,7 +223,7 @@ class _TokohState extends State<Tokoh> {
                                 ])),
                             onTap: () {
                               Navigator.of(context)
-                                  .pushNamed('/pria', arguments: 'Page Pria');
+                                  .pushNamed('/baik', arguments: 'Page Baik');
                             }),
                       ),
                       Expanded(
@@ -253,8 +253,8 @@ class _TokohState extends State<Tokoh> {
                                           ]))
                                 ])),
                             onTap: () {
-                              Navigator.of(context).pushNamed('/wanita',
-                                  arguments: 'Page Wanita');
+                              Navigator.of(context).pushNamed('/buruk',
+                                  arguments: 'Page Buruk');
                             }),
                       ),
                     ]),

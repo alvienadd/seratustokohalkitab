@@ -30,7 +30,7 @@ class _DetailWanitaState extends State<DetailWanita> {
                 height: height * 0.55,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('assets/icons/bible3.png'),
+                        image: AssetImage('assets/icons/femalecharacters.png'),
                         fit: BoxFit.cover)),
                 child: Container(
                   decoration: BoxDecoration(

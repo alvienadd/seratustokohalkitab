@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:seratustokohalkitab/others/DataTokoh.dart';
 
-class DetailPria extends StatefulWidget {
+class DetailBaik extends StatefulWidget {
   final DataTokoh args;
 
-  const DetailPria({
+  const DetailBaik({
     Key key,
     this.args,
   }) : super(key: key);
 
   @override
-  _DetailPriaState createState() => _DetailPriaState();
+  _DetailBaikState createState() => _DetailBaikState();
 }
 
-class _DetailPriaState extends State<DetailPria> {
+class _DetailBaikState extends State<DetailBaik> {
   @override
   Widget build(BuildContext context) {
 
@@ -30,7 +30,7 @@ class _DetailPriaState extends State<DetailPria> {
                 height: height * 0.55,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('assets/icons/malecharacters.png'),
+                        image: AssetImage('assets/icons/bible3.png'),
                         fit: BoxFit.cover)),
                 child: Container(
                   decoration: BoxDecoration(
