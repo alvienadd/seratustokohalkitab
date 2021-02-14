@@ -530,7 +530,7 @@
   },
   {
     "id"  : 67,
-    "name": "Maria Ibu  Yesus",
+    "name": "Maria Ibu Yesus",
     "type": "Wanita",
     "category":"PB",
     "personality":"baik",
@@ -663,5 +663,21 @@
     "category":"PB",
     "personality":"baik",
     "description":"Maria Magdalena adalah seorang perempuan yang berasal dari Magdala, dan darinya Yesus pernah mengusir tujuh roh jahat. Setelah dibebaskan dari roh jahat, Maria Magdalena setia mengikut Yesus dalam pelayananNya. Bukan hanya itu, dia juga, bersama perempuan-perempuan lainnya, dengan bermurah hati mempergunakan hartanya untuk membantu pelayanan Tuhan Yesus dan murid-muridNya (Lukas 8:1-3). Maria Magdalena juga merupakan salah satu saksi dari penyaliban dan kematian Tuhan Yesus (Matius 27:55-56). Dia tahu percis di mana mayat Yesus dibaringkan di dalam kuburanNya (Markus 15:47). Maria Magdalena juga termasuk di antara perempuan-perempuan yang pergi ke kubur Yesus pada pagi-pagi di hari Minggu untuk merempahi mayatNya (Markus 16:1). Maria Magdalena adalah saksi pertama dari kebangkitan Tuhan Yesus adalah Maria Magdalena (Markus 16:9; Yohanes 20:14-16)."
+  },
+  {
+    "id"  : 84,
+    "name": "Marta",
+    "type": "Wanita",
+    "category":"PB",
+    "personality":"buruk",
+    "description":"Marta adalah salah satu murid Tuhan Yesus. Setidaknya satu kali pelayanan Marta kepada Yesus dicatat di Alkitab (Lukas 10:38-42). Saat itu Yesus sedang bertamu ke rumah mereka. Dan Marta sibuk melayani di dapur, sementara saudaranya, Maria, duduk di dekat kaki Yesus mendengar Ia berbicara. Marta protes dan meminta Yesus menyuruh Maria membantunya. Tetapi Yesus menjawab bahwa Marta terlalu banyak kuatir, sementara hanya satu saja yang terpenting, yakni bersekutu dengan Tuhan. Dan Maria telah mengambil hal yang terpenting itu, yakni mendengar Yesus. Hal ini menunjukkan bahwa lebih penting mendengar Tuhan lewat doa dan pembacaan firmanNya, ketimbang sibuk melayaniNya. Kendati demikian, hal ini tidak mengurangi nilai pelayanan Marta kepada Yesus."
+  },
+  {
+    "id"  : 85,
+    "name": "Maria Sdr Marta",
+    "type": "Wanita",
+    "category":"PB",
+    "personality":"baik",
+    "description":"Maria adalah saudara Marta. Tampaknya Marta yang lebih tua dari saudaranya itu. Tuhan Yesus pernah beberapa kali datang ke rumah kakak beradik tersebut. Mereka tinggal di kota kecil Betania, dan mungkin mereka telah yatim piatu, karena tidak ada disebut tentang orang tua mereka. Salah satu peristiwa yang diceritakan tentang Maria adalah ketika ia mengurapi Yesus, tidak lama sebelum kematianNya. Maria rela mengorbankan minyak narwastunya seharga 300 dinar, yang saat itu cukup mahal, karena 1 dinar adalah gaji seorang buruh satu hari pada saat itu. (Yohanes 12:1-8). Pelayanan Maria ini dikritik oleh murid-muridNya, tetapi dipuji oleh Yesus sebagai perbuatan yang tepat sebagai persiapan menjelang kematianNya."
   }
 ]
