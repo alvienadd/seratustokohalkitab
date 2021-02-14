@@ -309,7 +309,6 @@ class _DetailBurukState extends State<DetailBuruk> {
   }
 
   Column _buildButtonColumn(Color color, Color splashColor, IconData icon,
-     Column _buildButtonColumn(Color color, Color splashColor, IconData icon,
       String label, Function func) {
     return Column(
         mainAxisSize: MainAxisSize.min,
