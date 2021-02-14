@@ -20,6 +20,10 @@ class _WallpaperState extends State<Wallpaper> {
     'assets/icons/holy.jpg',
     'assets/icons/bible1.png',
     'assets/icons/bible3.png',
+    'assets/icons/bible4.jpg',
+    'assets/icons/bible5.jpg',
+    'assets/icons/bible6.jpg',
+    'assets/icons/bible7.jpg',
   ];
 
   @override
