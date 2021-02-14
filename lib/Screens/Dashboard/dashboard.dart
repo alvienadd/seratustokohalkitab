@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:seratustokohalkitab/JsonParse.dart';
 import 'package:seratustokohalkitab/Screens/components/Pria.dart';
+import 'package:seratustokohalkitab/Screens/components/TTS.dart';
 import 'package:seratustokohalkitab/Screens/components/Tokoh.dart';
 import 'package:seratustokohalkitab/Screens/components/Wanita.dart';
 import 'package:seratustokohalkitab/Wallpaper.dart';
@@ -122,7 +123,7 @@ Widget _getBody(int index){
       case 0:
         return Tokoh(); // Create this function, it should return your first page as a widget
       case 1:
-        return Center(child: Text("There is no page builder for this index"),); // Create this function, it should return your second page as a widget
+        return TTS(); // Create this function, it should return your second page as a widget
       case 2:
         return Center(child: Text("There is no page builder for this index"),);// Create this function, it should return your third page as a widget
       case 3:
