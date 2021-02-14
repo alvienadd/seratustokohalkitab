@@ -221,7 +221,7 @@ class _DetailBurukState extends State<DetailBuruk> {
                       Text(
                         widget.args.name,
                         style: TextStyle(
-                            fontSize: 32,
+                            fontSize: 26,
                             fontWeight: FontWeight.bold,
                             color: Colors.black),
                       ),
