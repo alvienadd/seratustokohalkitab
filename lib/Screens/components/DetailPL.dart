@@ -188,7 +188,7 @@ class _DetailPLState extends State<DetailPL> {
                 height: height * 0.55,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('assets/icons/malecharacters.png'),
+                        image: AssetImage('assets/icons/bible1.jpg'),
                         fit: BoxFit.cover)),
                 child: Container(
                   decoration: BoxDecoration(
