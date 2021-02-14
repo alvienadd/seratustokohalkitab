@@ -234,7 +234,7 @@
   },
   {
     "id"  : 30,
-    "name": "Hana",
+    "name": "Hana Ibu Samuel",
     "type": "Wanita",
     "category":"PL",
     "personality":"baik",
@@ -545,11 +545,19 @@
     "description":"Yusuf adalah suami Maria, ayah Yesus. Dia merupakan keturunan Daud, yang berasal dari Betlehem tetapi tinggal di kota Nazaret. Pekerjaan Yusuf adalah seorang tukang kayu. Tampaknya ia sudah meninggal ketika Yesus resmi memulai pelayananNya di depan publik, sebab namanya tidak pernah lagi disebutkan setelah usia Yesus 12 tahun. Ketika ia tahu bahwa tunangannya Maria sedang hamil, maka dengan diam-diam ia ingin membatalkan pertunangannya dengan Maria. Pada masa itu pertunangan sudah dianggap seperti suami istri, tetapi belum hidup sebagai suami istri. Rencana Yusuf membatalkan pertunangannya menunjukkan ketulusan hatinya, sebab ia tidak ingin mencemarkan nama Maria jika sudah mengandung padahal masih bertunangan. Tetapi malaikat Tuhan menampakkan diri kepada Yusuf agar jangan ragu menerima Maria sebagai istrinya, sebab kandungannya itu berasal dari Roh Kudus. Hal ini ditaati oleh Yusuf, ia mengambil Maria yang sedang mengandung sebagai istrinya. (Matius 1:18-25)."
   },
   {
-    "id"  : 68,
+    "id"  : 69,
     "name": "Yohanes Pembaptis",
     "type": "Pria",
     "category":"PB",
     "personality":"baik",
     "description":"Yohanes Pembaptis adalah seorang perintis bagi kedatangan Mesias, yakni Tuhan Yesus. Yohanes berkhotbah di antara orang-orang Israel seraya menyerukan agar mereka bertobat dan memberi diri dibaptis. Yohanes adalah nabi terakhir dari Perjanjian Lama, sekalipun kisahnya berada di Alkitab Perjanjian Baru. Hal ini nyata dari perkataan Tuhan Yesus yang membatasi masa Perjanjian Lama hingga Yohanes Pembaptis. Setelah itu, maka dimulailah era baru, yang diawali oleh pelayanan Tuhan Yesus (Lukas 16:16). Yohanes Pembaptis mengumandangkan suara kenabian tanpa kompromi. Ia menegaskan kepada orang Israel, umat pilihan Tuhan yang bangga sebagai keturunan Abraham, bahwa jika mereka tidak bertobat, mereka pun tidak akan luput dari hukumanNya (Lukas 3:7-9). Teguran yang keras juga ia alamatkan kepada raja Herodes, yang mengambil istri saudaranya menjadi istrinya. Akibatnya ia dibunuh dengan sadis. Yohanes juga mempunyai sejumlah murid, yang diajarinya berdoa (Lukas 11:1). Kebesaran Yohanes Pembaptis diakui sendiri oleh Yesus sebagai lebih dari pada seorang nabi (Matius 11:7-11)."
+  },
+  {
+    "id"  : 70,
+    "name": "Yesus Kristus",
+    "type": "Pria",
+    "category":"PB",
+    "personality":"baik",
+    "description":"Yesus Kristus adalah tokoh terbesar di seluruh Alkitab dan pusat pemberitaan Alkitab. Yesus adalah Tuhan, turun dari surga dan datang ke bumi dengan cara berinkarnasi, mengambil rupa seorang manusia dan tinggal di antara manusia (Yohanes 1:1,14). Ketika Yesus datang ke dunia, Ia lahir dan dibesarkan dalam keluarga tukang kayu yang sederhana, Yusuf dan Maria. Kemudian setelah dewasa, Ia memberitakan Injil Kerajaan Allah serta memberikan nyawaNya bagi pengampunan dosa manusia. Tetapi Ia kemudian bangkit dari kematian dan naik ke surga serta akan datang kembali sebagai Hakim dan Raja."
   }
 ]
