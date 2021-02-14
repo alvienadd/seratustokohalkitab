@@ -426,7 +426,7 @@
   },
   {
     "id"  : 54,
-    "name": "Nebukadnez",
+    "name": "Nebukadnezar",
     "type": "Pria",
     "category":"PL",
     "personality":"buruk",
@@ -455,5 +455,13 @@
     "category":"PL",
     "personality":"baik",
     "description":"Misael, lebih dikenal sebagai Mesakh. Seperti telah disebut di atas, Mesakh adalah teman Daniel, Sadrakh, dan Abednego, yang sama-sama cerdas sehingga terpilih untuk dididik di kerajaan Babel agar bisa bekerja bagi raja Babel, Nebukadnezar. Bersama kedua temannya, Sadrakh dan Abednego, Mesakh memerintah sebagai raja di wilayah Babel. Mesakh juga seorang yang takut akan Tuhan dan tidak bersedia menyembah patung Nebukadnezar sekalipun nyawa taruhannya. Sebagai bentuk kekagumannya pada iman Mesakh dan teman-temannya, serta bentuk penghormatannya kepada Allah yang telah menyelamatkan mereka, Nebukadnezar kembali mempercayakan jabatan lain kepada Mesakh dan teman-temannya. Alkitab tidak menjelaskan lebih lanjut tentang karier pemerintahan Mesakh di Babel."
+  },
+  {
+    "id"  : 58,
+    "name": "Abednego",
+    "type": "Pria",
+    "category":"PL",
+    "personality":"baik",
+    "description":"Azarya, atau yang lebih dikenal sebagai Abednego, adalah teman Daniel, Sadrakh dan Mesakh, yang merupakan orang-orang buangan dari Yehuda di negeri Babel. Mereka berempat adalah orang-orang yang cerdas sehingga terpilih untuk dididik di kerajaan Babel agar bisa bekerja bagi raja Babel, Nebukadnezar (Daniel 1). Seperti dua temannya yang lain, Sadrakh dan Mesakh, Abednego juga menjadi salah satu orang terpenting di kerajaan Babel, di bawah raja Nebukadnezar (Daniel 2:49). Abednego juga seorang yang takut akan Tuhan, yang tidak bersedia menyembah patung Nebukadnezar sekalipun nyawa taruhannya, yakni dibuang ke perapian yang menyala-nyala. Sebagai bentuk kekagumannya pada iman Abednego dan teman-temannya, serta bentuk penghormatannya kepada Allah yang telah menyelamatkan mereka, Nebukadnezar kembali mempercayakan jabatan lain kepada Abednego dan teman-temannya (Daniel 3)."
   }
 ]

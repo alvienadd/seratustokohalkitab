@@ -217,46 +217,51 @@ class _DetailBurukState extends State<DetailBuruk> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Row(
-                    children:<Widget>[Text(
-                      widget.args.name,
-                      style: TextStyle(
-                          fontSize: 32,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black),
-                    ),
-                     Container(
-                      padding: EdgeInsets.only(top: 10.0),
-                      child:
-                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-                        _buildButtonColumn(Colors.green, Colors.greenAccent,
-                            Icons.play_arrow, 'PLAY', _speak),
-                        _buildButtonColumn(
-                            Colors.red, Colors.redAccent, Icons.stop, 'STOP', _stop),
-                      ])),
+                    Row(children: <Widget>[
+                      Text(
+                        widget.args.name,
+                        style: TextStyle(
+                            fontSize: 32,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black),
+                      ),
                     ]),
                     SizedBox(
                       height: 5,
                     ),
+                    
                     Container(
                       height: 50,
                       width: width,
                       child: ListView.builder(
-                        itemCount:5,
+                        itemCount: 5,
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, int key) {
                           return Icon(
                             Icons.star,
                             color: Colors.yellow[900],
-                            size: 34,
+                            size: 32,
                           );
                         },
                       ),
                     ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                   
+                    // SizedBox(
+                    //   height: 1,
+                    // ),
+                    Container(
+                        padding: EdgeInsets.only(top: 0.0),
+                        child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children:<Widget>[
+                              _buildButtonColumn(
+                                  Colors.green,
+                                  Colors.greenAccent,
+                                  Icons.play_arrow,
+                                  'PLAY',
+                                  _speak),
+                              _buildButtonColumn(Colors.red, Colors.redAccent,
+                                  Icons.stop, 'STOP', _stop),
+                            ])),
                     Text(
                       "Description",
                       style: TextStyle(
@@ -279,7 +284,6 @@ class _DetailBurukState extends State<DetailBuruk> {
                     SizedBox(
                       height: 40,
                     ),
-                  
                   ],
                 ),
               ),
@@ -305,26 +309,32 @@ class _DetailBurukState extends State<DetailBuruk> {
   }
 
   Column _buildButtonColumn(Color color, Color splashColor, IconData icon,
+     Column _buildButtonColumn(Color color, Color splashColor, IconData icon,
       String label, Function func) {
     return Column(
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Row(
-            children:<Widget>[
-          IconButton(
-              icon: Icon(icon),
-              color: color,
-              splashColor: splashColor,
-              onPressed: () => func()),
-          Container(
-              margin: const EdgeInsets.only(top: 8.0),
-              child: Text(label,
-                  style: TextStyle(
-                      fontSize: 12.0,
-                      fontWeight: FontWeight.w400,
-                      color: color)))
-        ])]);
+          Row(children: <Widget>[
+            Container(
+                transform: Matrix4.translationValues(-18.0,0.0, 0.0),
+              child: IconButton(
+                  icon: Icon(icon),
+                  color: color,
+                  splashColor: splashColor,
+                  onPressed: () => func()
+                  ),
+            ),
+            Container(
+                transform: Matrix4.translationValues(-18.0,0.0, 0.0),
+                margin: const EdgeInsets.only(top: 8.0),
+                child: Text(label,
+                    style: TextStyle(
+                        fontSize: 12.0,
+                        fontWeight: FontWeight.w400,
+                        color: color)))
+          ])
+        ]);
   }
 
 }
