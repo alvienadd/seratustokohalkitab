@@ -17,18 +17,21 @@ class _BurukState extends State<Buruk> {
   List<DataTokoh> searchList = List();
 
   bool _loading;
+  int count;
 
   @override
   void initState() {
     // DO: implement initState
     super.initState();
     _loading = true;
+    count=0;
     Services.getDataTokoh().then((value) {
       setState(() {
         _tokoh = value;
         tempList = _tokoh.where((value) => value.personality == 'buruk').toList();
         searchList = tempList;
         _loading = false;
+        count=tempList.length;
       });
     });
   }
@@ -69,6 +72,13 @@ class _BurukState extends State<Buruk> {
         body: Container(
             child: Column(children: <Widget>[
           _searchBar(),
+             Padding(
+            padding: const EdgeInsets.only(left:20.0),
+            child: Row(children:<Widget>[
+              Text('Total: ',style: TextStyle(color:Colors.white)),
+              Text("${count}",style: TextStyle(color:Colors.white))
+            ]),
+          ),
           Expanded(
               child: GridView.builder(
                   itemCount: null == tempList ? 0 : tempList.length,

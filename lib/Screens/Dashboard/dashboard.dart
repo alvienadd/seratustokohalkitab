@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:seratustokohalkitab/JsonParse.dart';
+import 'package:seratustokohalkitab/Screens/components/PB.dart';
+import 'package:seratustokohalkitab/Screens/components/PL.dart';
 import 'package:seratustokohalkitab/Screens/components/Pria.dart';
 import 'package:seratustokohalkitab/Screens/components/TTS.dart';
 import 'package:seratustokohalkitab/Screens/components/Tokoh.dart';
@@ -123,9 +125,9 @@ Widget _getBody(int index){
       case 0:
         return Tokoh(); // Create this function, it should return your first page as a widget
       case 1:
-        return TTS(); // Create this function, it should return your second page as a widget
+        return PL(); // Create this function, it should return your second page as a widget
       case 2:
-        return Center(child: Text("There is no page builder for this index"),);// Create this function, it should return your third page as a widget
+        return PB();// Create this function, it should return your third page as a widget
       case 3:
          return Wallpaper(); // Create this function, it should return your fourth page as a widget
     }
