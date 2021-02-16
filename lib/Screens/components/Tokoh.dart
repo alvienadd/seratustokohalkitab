@@ -33,6 +33,7 @@ class _TokohState extends State<Tokoh> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+          debugShowCheckedModeBanner: false,
           theme: _light ? _lightTheme : _darkTheme,
           home: Scaffold(
           // backgroundColor: Color(int.parse('#F2F2F2'.replaceAll('#', '0xff'))),
